@@ -1,6 +1,6 @@
 Initial Value Of C & D
 x : 10 y : 20
-x : 0 y : 0
+x : 1 y : 3
 Value of C & D After Unary Minus C and assign to D
 x : -10 y : -20
 x : -10 y : -20
@@ -19,3 +19,15 @@ x : 1 y : 1
 Value of E & F After Pre-Decrement and assign to F
 x : 0 y : 0
 x : 0 y : 0
+Add D & E and assign to F
+x : -10 y : -20
+x : 0 y : 0
+x : -10 y : -20
+Subtract D & E and assign to F
+x : -10 y : -20
+x : 0 y : 0
+x : -10 y : -20
+Left Shift D
+x : 4 y : 4
+Right Shift D
+x : 2 y : 2

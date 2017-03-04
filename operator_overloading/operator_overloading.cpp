@@ -59,11 +59,37 @@ class Complex{
 			Complex New(x,y);
 			return New;			
 		}
+		// Binary Addition
+		Complex operator + (Complex &C1){
+			Complex C;
+			C.x = x + C1.x;
+			C.y = y + C1.y;
+			return C;
+		}
+		// Binary Subtration
+		Complex operator - (Complex &C1){
+			Complex C;
+			C.x = x - C1.x;
+			C.y = y - C1.y;
+			return C;
+		}
+		// left Shift 
+		Complex operator << (int n){
+			x = x<<n;
+			y = y<<n;
+			return *this;
+		}
+		// Right Shift 
+		Complex operator >> (int n){
+			x = x >> n;
+			y = y >> n;
+			return *this;
+		}
 
 };
 // Main Calling Function
 int main(){
-	Complex C(10,20),D,E,F;
+	Complex C(10,20),D(1,3),E,F,G(1,1);
 
 	cout<<"Initial Value Of C & D"<<endl;
 	C.print();
@@ -98,6 +124,26 @@ int main(){
 	cout<<"Value of E & F After Pre-Decrement and assign to F"<<endl;
 	E.print();
 	F.print();
+	// Binary Addition
+	cout<<"Add D & E and assign to F"<<endl;		
+	F = D + E;
+	D.print();
+	E.print();
+	F.print();
+	// Binary Subtraction 
+	cout<<"Subtract D & E and assign to F"<<endl;		
+	F = D - E;
+	D.print();
+	E.print();
+	F.print();
+	// Left Shift
+	cout<<"Left Shift D"<<endl;	
+	G << 2;
+	G.print();
+	// Right Shift
+	cout<<"Right Shift D"<<endl;	
+	G >> 1;
+	G.print();
 
 return 0;
 }
