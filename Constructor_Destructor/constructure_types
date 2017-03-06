@@ -1,0 +1,40 @@
+//header files
+#include<iostream>
+using namespace std;
+class sample
+{
+  private:
+  int x;
+  public:
+  //default constructor
+  sample()
+   {
+     x = 0;
+   }
+  //parameterized constructor
+  sample (int a)
+   {
+      x = a;
+   }
+   //copy constructor
+  sample (sample &obj)
+   {
+      x=obj.x;
+   }
+  void display ()
+  {
+   cout<<"the value of x : "<<x<<endl;
+  }
+};
+//calling of the main function
+int main()
+ {
+  sample A;
+  sample B(10);
+  sample C;
+  C = B;
+ A.display();
+ B.display();
+ C.display();
+return 0;
+}
