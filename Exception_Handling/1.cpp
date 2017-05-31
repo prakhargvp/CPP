@@ -19,7 +19,9 @@ int main(){
 		// Output the result
 		cout << res << endl;
 
-	}catch(int e){
+	}
+	// catch(...) : is used to handle any type of throw
+	catch(int e){
 		cout << "Division by 0 error" << endl;	
 	}
 

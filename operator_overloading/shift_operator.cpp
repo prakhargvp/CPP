@@ -29,7 +29,7 @@ int main(){
 	Test obj1(1);
 	obj1.print();	// 1
 	// left shift
-	// obj1 = obj1 << 5
+	// obj1 = obj1 << number_of_time_to_shift_to_left 
 	obj1 << 2;
 	obj1.print();	// 4	
 	// right shift
