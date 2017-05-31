@@ -4,6 +4,7 @@ It provides common function and data-structure for array, list, stack, queue etc
 
 Algorithm
 1. sort
+2. reverse
 
 Container
 1. vector

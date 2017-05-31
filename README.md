@@ -24,6 +24,7 @@
 #### 6. Other-Porgrams
 * remove-trailing-zeroes : To remove trailing zeroes from string
 #### 7. STL : Standard Template Library
-* algortihm/sort.cpp : To sort an array in ascening & descending order using STL
-
+* algortihm/sort.cpp : To sort an array in ascening & descending order using STL, sort function.
+* algortihm/reverse.cpp : To reverse an array using STL, reverse function.
+* container/vector.cpp : To implement int array using vector.
 
