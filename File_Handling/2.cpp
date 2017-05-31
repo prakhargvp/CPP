@@ -1,4 +1,4 @@
-/* Single line input & Output in a file*/
+/* Multi line input & Output in a file*/
 #include<iostream>
 // header file for ifstream, ofstream, fstream class
 #include<fstream>
