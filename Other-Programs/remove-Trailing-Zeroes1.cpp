@@ -1,14 +1,19 @@
-// To remove trailing/preceding zeroes from the string
+/*
+ * To remove trailing/preceding zeroes from the string
+ * Using Iterator
+*/
 
 #include<iostream>
 using namespace std;
 
 string removeZero(string str){
-	int i = 0;
-	while(i<str.size()){
-		if(str[0]=='0'){
+
+	string::iterator itr = str.begin();
+
+	while(itr!=str.end()){
+		if(*itr=='0'){
 			// Using erase function
-			str.erase(str.begin()+i,str.begin()+i+1);
+			str.erase(itr,itr+1);
 		}else{
 			break;
 		}
