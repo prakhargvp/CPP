@@ -5,14 +5,10 @@ using namespace std;
 
 string removeZero(string str){
 	int i = 0;
-	while(i<str.size()){
-		if(str[0]=='0'){
-			// Using erase function
-			str.erase(str.begin()+i,str.begin()+i+1);
-		}else{
-			break;
-		}
+	while(str[i]=='0'){
+		i++;
 	}
+	str.erase(str.begin(),str.begin()+i);
 	return str;
 }
 

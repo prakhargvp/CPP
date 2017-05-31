@@ -10,14 +10,11 @@ string removeZero(string str){
 
 	string::iterator itr = str.begin();
 
-	while(itr!=str.end()){
-		if(*itr=='0'){
-			// Using erase function
-			str.erase(itr,itr+1);
-		}else{
-			break;
-		}
+	while(*itr=='0'){
+		itr++;
 	}
+
+	str.erase(str.begin(),itr);
 	return str;
 }
 
