@@ -11,7 +11,7 @@ public:
 		a = n;
 	}
 	// Declare friend function : To access private members of Test Class
-	// To Overload extraction operator >>
+	// To Overload insertion operator <<
 	// ostream::operator<<
 	friend ostream& operator << (ostream&, Test&);
 	void print(){
