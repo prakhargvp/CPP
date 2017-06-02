@@ -13,7 +13,7 @@ published: true
 1. Using PHP function
 2. Using larabel helper array_except
 
-<code>unset($obj-&gt;key)</code>
+<code>unset($obj->key)</code>
 
 <code>
 $myArray = ['name'=>'prakhar agrawal', 'title'=>'student'];
