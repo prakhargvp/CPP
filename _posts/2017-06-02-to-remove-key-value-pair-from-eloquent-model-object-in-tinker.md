@@ -7,7 +7,8 @@ author: prakhargvp@gmail.com
 post_date: 2017-06-02 02:31:11
 post_excerpt: ""
 layout: post
-permalink: http://blog.prakhar.info/?p=45
+permalink: >
+  http://blog.prakhar.info/to-remove-key-value-pair-from-eloquent-model-object-in-tinker/
 published: true
 ---
 1. Using PHP function
