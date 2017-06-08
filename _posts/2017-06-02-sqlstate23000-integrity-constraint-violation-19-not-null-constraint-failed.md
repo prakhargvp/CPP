@@ -5,7 +5,8 @@ author: prakhargvp@gmail.com
 post_date: 2017-06-02 02:18:36
 post_excerpt: ""
 layout: post
-permalink: http://blog.prakhar.info/?p=35
+permalink: >
+  http://blog.prakhar.info/sqlstate23000-integrity-constraint-violation-19-not-null-constraint-failed/
 published: true
 ---
 That means there are some columns in the Sqlite table which have not null constraint and you are inserting/updating null value.
